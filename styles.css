@@ -1,1 +1,50 @@
 
+html{
+    font-size: 62.5%;
+}
+body{
+    height: 100%;
+    background-color: rgb(223, 223, 223);
+}
+.wrapper{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+    margin: 0 auto;
+    padding: 1rem;
+    align-items: center;
+}
+.inp-btn{
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 0.2rem;
+    padding: 0.3rem;
+    font-size: 1.2rem;
+}
+h1{
+    text-align: center;
+}
+ul{
+    font-size: 1.5rem;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    width: 80%;
+    padding: 1rem;
+}
+li{
+    background-color:  rgb(223, 223, 223);
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0.5rem;
+    border-radius: 0.2rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
